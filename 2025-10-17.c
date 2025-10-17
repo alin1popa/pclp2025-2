@@ -67,6 +67,8 @@ int main() {
         printf("\n");
     }
 
+    printf("asdasasfaf\n");
+
     // int k3[10][20];
 
     // int v[100];
