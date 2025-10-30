@@ -24,6 +24,20 @@
 // }
 
 
+int factorial_intern(int p, int n) {
+    if (n==0) {
+        return p;
+    } else {
+        return factorial_intern(p*n, n-1);
+    }
+}
+
+int factorial(int n) {
+    return factorial_intern(1, n);
+}
+
+// factorial(1, n)
+
 
 // int factorial(int n) {
 //     if (n==0) {
